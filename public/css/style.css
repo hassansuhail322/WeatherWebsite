@@ -9,7 +9,9 @@ html{
     font-size: 62.5%;
 }
 .main_menu{
-    background-color:#3b9de0;
+    background-color:#13206b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
     
 .row{
@@ -19,7 +21,7 @@ html{
                                  /* Navbar style */
 
 .navbar{
-    background-color:#3b9de0;
+    background-color:#13206b;
     margin : 1.5rem;
 
     
@@ -30,14 +32,14 @@ html{
     font-size: 1.8rem;
 }
 .navbar a:hover{
-    color: rgb(11, 54, 102);
+    color: yellow;
 }
 .navbar li {
     margin-left: 2rem; 
 }
 
 .navbar-toggler-icon{
-    background-color: #1c262cc7;
+    background-color:white;
     color: rgb(238, 238, 231);
 }
 
@@ -68,14 +70,16 @@ html{
 
 .btn{
     outline: none;
-    background: rgb(50, 177, 228);
+    background: rgb(75, 174, 212);
     border-radius: 3rem;
     padding: 0.6rem 1rem;
     color: white;
     font-size: 1.6rem;
 }
 .btn :hover{
-    filter: drop-shadow(drop-shadow(0 0.5rem 1rem black));
+    filter: drop-shadow(drop-shadow(0 0.5rem 1rem white));
+    color: yellow;
+  
 }
  
 
@@ -98,8 +102,8 @@ html{
     width: 70%;
     position: relative;
     margin: 10rem auto 6rem;
-    background-color : #2e6376;
-    border-radius: 4rem;
+    background-color : black;
+    border-radius: 0.5rem;
 }
 
 
@@ -107,11 +111,12 @@ html{
     width: 100%;
     padding: 2rem 5rem 2rem 1rem;
     color:white;
-    background-color: #2e6376;
+    background-color: black;
     outline: none;
     border: none;
     font-size: 1.7rem;
     border-radius: 3rem;
+    font-family: 'Raleway', sans-serif;
 } 
 
 ::placeholder{
@@ -125,11 +130,12 @@ html{
     bottom: 5px;
     border: none;
     outline: none;
-    background: rgb(41, 155, 184);
-    border-radius: 3rem;
+    background:rgb(248, 248, 5);
+    border-radius: 0.5rem;
     padding: 0 3rem;
-    color: white;
+    color: black;
     font-size: 1.6rem;
+    font-weight:500;
 }
 
 /* .temp_form input [type="submit"] :hover{
@@ -143,12 +149,13 @@ html{
     
 }
 .tempInformation{
-    width: 60rem;
+    /* border: 3px solid red; */
+    width: 85rem;
     margin: auto;
     min-height: 20rem;
-    background-color: #2e6376;
-    border-radius: 1rem;
-    padding: 1rem;
+    background-color: #13206b;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
     font-family: 'Courier New', Courier, monospace; 
 }
 .top_layer{
@@ -161,43 +168,48 @@ html{
     border-radius: 1rem;
 }
 .top_layer p{
-    color: white;
-    font-weight: 600;
+    color: yellow;
+    font-weight: 700;
     padding: 2rem;
     font-size: 2.3rem;
+    font-family: 'Raleway', sans-serif;   
+
     
 }
 .main_layer{
     width: 100%;
     height: 80%;
     display: flex;
-    background-color: rgb(131, 202, 235);
     flex-direction: column;
+    background-color:white;
+    font-family: 'Raleway', sans-serif;   
     padding: 2rem;
+    border-radius: 0.3rem;
 
 }
 
 .main_layer #city_name{
     padding: 1rem 0;
-    color:white;
-    font-weight: 500;
+    color:gray;
+    font-family: 'Raleway', sans-serif;   
+    font-weight: 700;
     font-size: 3.1rem;
 }
 .main_layer .middle_layer {
     display: flex;
-    margin-top: 6rem;
+    margin-top: 4rem;
     justify-content: space-around;
-    color:white;
+    color:black;
 
 }
 
 .main_layer .middle_layer p{
     font-size: 6rem;
-    font-weight: 900;
+    font-weight:bold;
 }
 
 sup{
-    color:white;
+    color:black;
     font-size: 6rem;
     margin-top: -2rem;
 
@@ -222,7 +234,7 @@ sup{
     width: 100%;
     height: 5rem;
     margin-top: 15rem;
-    background-color:#3b9de0;
+    background-color:#13206b;
     color: white;
     text-align: center;
     align-items: center;
@@ -231,6 +243,8 @@ sup{
   
   .f p{
       text-transform: capitalize;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
       font-size: 2rem;
       
   }
