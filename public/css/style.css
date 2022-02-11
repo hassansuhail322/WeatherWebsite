@@ -198,14 +198,17 @@ html{
 .main_layer .middle_layer {
     display: flex;
     margin-top: 4rem;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     color:black;
 
 }
 
 .main_layer .middle_layer p{
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight:bold;
+    margin-right:4rem;
+ 
 }
 
 sup{
