@@ -185,6 +185,8 @@ html{
     font-family: 'Raleway', sans-serif;   
     padding: 2rem;
     border-radius: 0.3rem;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -192,17 +194,16 @@ html{
     padding: 1rem 0;
     color:gray;
     font-family: 'Raleway', sans-serif;   
-    font-weight: 700;
+    font-weight: 800;
     font-size: 3.1rem;
 }
 .main_layer .middle_layer {
     display: flex;
     margin-top: 4rem;
-    /* justify-content: space-around; */
-    justify-content: center;
     color:black;
 
 }
+
 
 .main_layer .middle_layer p{
     font-size: 4rem;
