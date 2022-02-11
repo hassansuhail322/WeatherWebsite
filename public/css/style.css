@@ -206,7 +206,7 @@ html{
 
 
 .main_layer .middle_layer p{
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight:bold;
     margin-right:2rem;
  
@@ -214,7 +214,7 @@ html{
 
 sup{
     color:black;
-    font-size: 6rem;
+    font-size: 5rem;
     margin-top: -2rem;
 
 }
